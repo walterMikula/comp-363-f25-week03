@@ -10,8 +10,8 @@ class Node:
         """
         self.__frequency = frequency
         self.__symbol = symbol
-        self.__left = "Node"|None
-        self.__right = "Node"|None
+        self.__left = None
+        self.__right = None
 
     # -- Setters -- #
 
