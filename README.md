@@ -1,4 +1,4 @@
-# Week 01: Minimum Spanning Trees
+# Week 03: Huffman Encoding
 
 The assignment can be found in the Jupyter notebook named [assignment.ipynb](./assignment.ipynb).
 
