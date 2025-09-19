@@ -10,15 +10,15 @@ class Node:
         """
         self.__frequency = frequency
         self.__symbol = symbol
-        self.__left = None
-        self.__right = None
+        self.__left = "Node"|None
+        self.__right = "Node"|None
 
     # -- Setters -- #
 
-    def set_left(self, child: "Node" | None) -> None:
+    def set_left(self, child) -> None:
         self.__left = child
 
-    def set_right(self, child: "Node" | None) -> None:
+    def set_right(self, child) -> None:
         self.__right = child
 
     # -- Getters -- #
@@ -26,13 +26,13 @@ class Node:
     def get_frequency(self) -> int:
         return self.__frequency
 
-    def get_symbol(self) -> chr:
+    def get_symbol(self) -> str:
         return self.__symbol
 
-    def get_left(self) -> "Node" | None:
+    def get_left(self):
         return self.__left
 
-    def get_right(self) -> "Node" | None:
+    def get_right(self):
         return self.__right
 
     # -- Overloaded operators -- #
